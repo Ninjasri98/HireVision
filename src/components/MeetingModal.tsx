@@ -14,8 +14,9 @@ function MeetingModal({isOpen,onClose,title,isJoinMeeting}:MeetingModalProps) {
 
     const [meetingUrl, setMeetingUrl] = useState("")
 
-    const createMeeting = async () => {}
-    const joinMeeting = async () => {}
+    const {createInstantMeeting,joinMeeting} =useMeetingActions()
+
+    
 
     const handleStart = () =>{}
     
@@ -50,3 +51,7 @@ function MeetingModal({isOpen,onClose,title,isJoinMeeting}:MeetingModalProps) {
 }
 
 export default MeetingModal
+
+function useMeetingActions() {
+    throw new Error('Function not implemented.');
+}
