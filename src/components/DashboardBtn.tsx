@@ -7,10 +7,10 @@ import { useUserRole } from "@/hooks/useUserRole";
 
 function DashboardBtn() {
 
-    const {isCandidate,isInterviewer} = useUserRole()
+    const {isCandidate,isLoading} = useUserRole()
 
 
-    if (isCandidate) return null;
+    if (isCandidate || isLoading)  return null;
   return (
     <Link href={"/dashboard"}>
         <Button className="gap-2 font-medium" size={"sm"}>
