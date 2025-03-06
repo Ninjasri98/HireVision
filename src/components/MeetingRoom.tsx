@@ -5,6 +5,7 @@ import React, { useState } from 'react'
 import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from './ui/resizable';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from './ui/dropdown-menu';
 import { Button } from './ui/button';
+import EndCallButton from './EndCallButton';
 
 function MeetingRoom() {
   const router = useRouter();
@@ -43,7 +44,7 @@ function MeetingRoom() {
           <div className="absolute bottom-4 left-0 right-0">
             <div className="flex flex-col items-center gap-4">
               <div className="flex items-center gap-2 flex-wrap justify-center px-4">
-                <CallControls onLeave={() => router.push("/")} />
+                <CallControls onLeave={() => router.push("/home")} />
 
                 <div className="flex items-center gap-2">
                   <DropdownMenu>
