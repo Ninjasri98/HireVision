@@ -14,6 +14,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { INTERVIEW_CATEGORY } from '@/constants';
 import Link from 'next/link';
+import CommentDialog from '@/components/CommentDialog';
 
 type Interview = Doc<"interviews">;
 function DashboardPage() {
