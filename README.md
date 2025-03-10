@@ -1,4 +1,5 @@
 🎥 Video Call Interview Platform
+
 HireVision is a  modern, full-stack video calling interview platform designed to create seamless and interactive technical interview experiences. This project combines Next.js, TypeScript, Stream, Convex, and Clerk with modern UI libraries like Tailwind CSS and Shadcn UI, offering real-time collaboration and a clean, responsive interface.
 
 🚀 Tech Stack
@@ -53,6 +54,12 @@ bash
 Copy
 Edit
 npm install
+
+**Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/video-call-interview-platform.git
+   cd video-call-interview-platform
 
 
 Set up Environment Variables
