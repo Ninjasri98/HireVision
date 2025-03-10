@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🎥 Video Call Interview Platform
+HireVision is a  modern, full-stack video calling interview platform designed to create seamless and interactive technical interview experiences. This project combines Next.js, TypeScript, Stream, Convex, and Clerk with modern UI libraries like Tailwind CSS and Shadcn UI, offering real-time collaboration and a clean, responsive interface.
 
-## Getting Started
+🚀 Tech Stack
+Next.js (App Router)
+TypeScript
+Stream (Video & Real-time Communication)
+Convex (Backend & Realtime Database)
+Clerk (Authentication & Authorization)
+Tailwind CSS & Shadcn UI (Styling)
+✨ Features
+🎥 Video Calls
+High-quality video calling powered by Stream, optimized for interviews.
 
-First, run the development server:
+🖥️ Screen Sharing
+Share your screen with participants for code reviews, demos, or technical discussions.
 
-```bash
+🎬 Screen Recording
+Record interviews or sessions for later review or feedback.
+
+💻 Code Editor Panel
+Integrated collaborative code editor within the meeting room, enabling live coding interviews and pair programming.
+
+🔒 Authentication & Authorization
+Secure user management and role-based access control with Clerk.
+
+💻 Server Components, Layouts, Server Actions
+Built with the latest Next.js features for optimized performance and scalability.
+
+🎭 Client & Server Components
+Smooth interaction between Client and Server components ensures a responsive user experience.
+
+🛣️ Dynamic & Static Routes
+Efficient routing with Next.js App Router, supporting static and dynamic paths.
+
+🎨 Styling with Tailwind & Shadcn
+Modern, accessible, and responsive UI using Tailwind CSS and Shadcn UI components.
+
+✨ Server Actions
+Simplified data mutations and API handling with Next.js Server Actions for secure and efficient backend communication.
+
+🔧 Getting Started
+Clone the Repository
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/video-call-interview-platform.git
+cd video-call-interview-platform
+Install Dependencies
+
+bash
+Copy
+Edit
+npm install
+
+
+Set up Environment Variables
+
+Create a .env.local file and add the required credentials for Stream, Convex, and Clerk.
+
+ini
+Copy
+Edit
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+CONVEX_DEPLOYMENT=
+NEXT_PUBLIC_CONVEX_URL=
+NEXT_PUBLIC_STREAM_API_KEY=
+STREAM_SECRET_KEY=
+
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
